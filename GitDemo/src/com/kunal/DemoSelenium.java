@@ -15,6 +15,10 @@ public class DemoSelenium {
 		
 		driver.get("https://github.com/");
 	System.out.println(driver.getTitle());
+	
+	driver.get("https://www.google.co.in");
+	System.out.println(driver.getTitle());
+
 	  
 	  
 		 
